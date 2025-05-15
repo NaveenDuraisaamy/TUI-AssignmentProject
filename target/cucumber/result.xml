@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="124.024" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-15T10:28:19.929810700Z">
+<testcase classname="Login Functionality" name="User logs into the app with valid credentials" time="25.485">
+<system-out><![CDATA[
+Given user launch the application...........................................passed
+When user logs into the app with valid credentials..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="User on Dahsboard Page" time="98.345">
+<system-out><![CDATA[
+Then user lands on dashboard page...........................................passed
+And user close the application..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

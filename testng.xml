@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TUI Test Suite">
+    <listeners>
+        <listener class-name="utils.RetryListener"/>
+    </listeners>
+
+    <test name="TUI Hotels and Bookings">
+        <classes>
+            <class name="runner.TestRunner" />
+        </classes>
+    </test>
+</suite>
